@@ -30,11 +30,11 @@ if uploaded_file is not None:
     st.pyplot(plt)
 
     # Example: Correlation Heatmap
-    st.subheader("Correlation Heatmap")
+    '''st.subheader("Correlation Heatmap")
     corr = df_application.corr()
     plt.figure(figsize=(12, 8))
     sns.heatmap(corr, annot=True, cmap='coolwarm')
-    st.pyplot(plt)
+    st.pyplot(plt)'''
 
     # Model Training and Prediction
     st.subheader("Loan Default Prediction")
