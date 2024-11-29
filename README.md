@@ -19,11 +19,11 @@ Unused Offer: Loan was approved but unused.
 Business Objectives:
 The primary aim of the project is to identify patterns and key factors that influence loan defaults. These insights can help the company:
 
--Deny loans to high-risk applicants.
--Reduce loan amounts for borderline applicants.
--Adjust interest rates for risky applicants.
+- Deny loans to high-risk applicants.
+- Reduce loan amounts for borderline applicants.
+- Adjust interest rates for risky applicants.
 
-*Project Workflow
+* Project Workflow
 1. Exploratory Data Analysis (EDA)
 A. Handling Missing Data:
 Identified and visualized missing data across variables.
@@ -51,8 +51,8 @@ Identified top indicators of loan default based on correlation coefficients.
 Graph Used: Heatmaps to visualize the strongest correlations.
 
 2. Machine Learning (ML) Models
-To predict loan defaults, the following machine learning models were trained and evaluated:
 
+To predict loan defaults, the following machine learning models were trained and evaluated:
 A. Logistic Regression:
 A baseline linear model used for binary classification.
 Achieved 91.5% accuracy on the test data.
@@ -65,17 +65,17 @@ Confusion matrices were generated to evaluate prediction performance.
 D. Feature Importance:
 Visualized the importance of features in predicting loan defaults using bar charts.
 
-*Results and Insights
--Identified patterns in customer behavior and loan attributes influencing defaults.
--Determined the most significant variables, such as income level, loan amount, and credit history.
--Built robust predictive models with over 91% accuracy to assist in decision-making.
+* Results and Insights
+- Identified patterns in customer behavior and loan attributes influencing defaults.
+- Determined the most significant variables, such as income level, loan amount, and credit history.
+- Built robust predictive models with over 91% accuracy to assist in decision-making.
 
-*Tools and Technologies
--Languages: Python
--Libraries: pandas, numpy, matplotlib, scikit-learn
--Visualization Tools: Matplotlib and Seaborn for Python; Excel for additional analysis and visualizations.
+* Tools and Technologies
+- Languages: Python
+- Libraries: pandas, numpy, matplotlib, scikit-learn
+- Visualization Tools: Matplotlib and Seaborn for Python; Excel for additional analysis and visualizations.
 
-*Usage Instructions
+* Usage Instructions
 Clone the Repository:
 git clone https://github.com/your-repo-name/bank-defaulter-prediction.git
 cd bank-defaulter-prediction
@@ -86,19 +86,19 @@ pip install -r requirements.txt
 Run the Notebook:
 Open the provided Jupyter Notebook and execute the cells to perform EDA and train the machine learning models.
 
-*Analyze Results:
+* Analyze Results:
 Review the visualizations and results generated during EDA.
 Evaluate the predictive performance of the models.
 
-*Visualizations
+* Visualizations
 The project includes various visualizations to enhance interpretability:
 Bar Charts: Proportion of missing values, class imbalance, and feature importance.
 Box Plots: Outlier detection.
 Heatmaps: Correlation analysis.
 Scatter Plots: Bivariate relationships.
 
-*Business Impact
+* Business Impact
 This project enables financial institutions to:
--Reduce default rates by identifying high-risk applicants.
--Increase profitability by optimizing loan approval strategies.
--Enhance customer trust with fair and data-driven decisions.
+- Reduce default rates by identifying high-risk applicants.
+- Increase profitability by optimizing loan approval strategies.
+- Enhance customer trust with fair and data-driven decisions.
